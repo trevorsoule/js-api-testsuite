@@ -25,7 +25,7 @@ describe("POST Tests", () => {
 
 		/*
 		*******
-		Should also verify that the new entry was created, but this API only makes created data
+		Should also verify that the new entry was created, but this API only mocks data changes
 		*******
 		await request
 		    .get("/posts/" + response.body.id)
